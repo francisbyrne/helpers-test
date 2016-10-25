@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.4.1.3');
   api.use([
     'ecmascript',
-    'dburles:collection-helpers'
+    'dburles:collection-helpers@1.0.4'
   ]);
   api.mainModule('index.js');
 });
